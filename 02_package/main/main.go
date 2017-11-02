@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	"github.com/martinmaasik/udemytraining/02_package/icomefromalaska"
 	"github.com/martinmaasik/udemytraining/02_package/stringutil"
 )
 

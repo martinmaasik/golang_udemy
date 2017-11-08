@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-  "github.com\martinmaasik\udemytraining\04_scope\01_package-scope\02_visibility"
+
+	"github.com/martinmaasik/udemytraining/04_scope/01_package-scope/02_visibility/vis"
 )
 
 func main() {
-	fmt.Println(vis.Myname)
+	fmt.Println(vis.MyName)
 	vis.PrintVar()
 }

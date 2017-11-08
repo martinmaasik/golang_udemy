@@ -1,14 +1,12 @@
 package main
 
-import (
-	"fmt"
-)
-
-var x = 42
+import "fmt"
 
 func main() {
+	x := 42
 	fmt.Println(x)
 	foo()
+
 }
 
 func foo() {
